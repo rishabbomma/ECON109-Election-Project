@@ -1,0 +1,54 @@
+Reorganization of 2026-11-01: author names removed from file and folder names;
+data grouped by what it measures. Paths are relative to election-project/.
+Authorship is now a comment at the top of each code file.
+
+MOVE  raw/Rishab_ElectionResults  ->  raw/election_results
+MOVE  raw/countypres_2000-2024.tab  ->  raw/election_results/county_president/countypres_2000-2024.tab
+MOVE  raw/County Presidential Returns 2000-2024.md  ->  raw/election_results/county_president/County Presidential Returns 2000-2024.md
+MOVE  raw/Rishab_Demographics  ->  raw/demographics
+MOVE  raw/demographics/manifest_Rishab_Demographics.json  ->  raw/demographics/manifest_demographics.json
+MOVE  raw/Rishab_LocalEconomy  ->  raw/local_economy
+MOVE  raw/local_economy/manifest_Rishab_LocalEconomy.json  ->  raw/local_economy/manifest_local_economy.json
+MOVE  raw/Rishab_DonorGeography  ->  raw/donor_geography
+MOVE  raw/donor_geography/manifest_Rishab_DonorGeography.json  ->  raw/donor_geography/manifest_donor_geography.json
+MOVE  raw/Jingyang_CampaignFinance  ->  raw/campaign_finance
+MOVE  raw/campaign_finance/Jingyang_CampaignFinance_CollectionManifest_20261018.json  ->  raw/campaign_finance/manifest_campaign_finance.json
+MOVE  raw/Rishab_READMEs/ElectionResults.md  ->  raw/election_results/README.md
+MOVE  raw/Rishab_READMEs/Demographics.md  ->  raw/demographics/README.md
+MOVE  raw/Rishab_READMEs/LocalEconomy.md  ->  raw/local_economy/README.md
+MOVE  raw/Rishab_READMEs/DonorGeography.md  ->  raw/donor_geography/README.md
+MOVE  raw/Rishab_READMEs/CLEANUP_LOG.md  ->  raw/CLEANUP_LOG.md
+MOVE  clean/Rishab_Past_Elections  ->  clean/election_results
+MOVE  clean/base_pres24.csv  ->  clean/election_results/base_pres24.csv
+MOVE  clean/Rishab_DonorGeography  ->  clean/donor_geography
+MOVE  clean/Jingyang_CampaignFinance  ->  clean/campaign_finance
+MOVE  clean_scripts/Rishab  ->  clean_scripts/election_results
+MOVE  clean_scripts/election_results/Rishab_Past_Elections.py  ->  clean_scripts/election_results/past_elections.py
+MOVE  clean_scripts/election_results/Rishab_Cross_State.py  ->  clean_scripts/election_results/cross_state.py
+MOVE  clean_scripts/Jingyang_CampaignFinance  ->  clean_scripts/campaign_finance
+MOVE  notebooks/Rishab  ->  notebooks/forecast
+MOVE  notebooks/forecast/Rishab_Baseline.ipynb  ->  notebooks/forecast/baseline.ipynb
+MOVE  notebooks/Jingyang_CampaignFinance  ->  notebooks/campaign_finance
+MOVE  output/Jingyang_CampaignFinance  ->  output/campaign_finance
+MOVE  raw/campaign_finance/Jingyang_CampaignFinance_F3Reports_5Committees_2026_raw.csv  ->  raw/campaign_finance/F3Reports_5Committees_2026_raw.csv
+MOVE  raw/campaign_finance/Jingyang_CampaignFinance_F3XReports_HustedNominee_2026_raw.csv  ->  raw/campaign_finance/F3XReports_HustedNominee_2026_raw.csv
+MOVE  raw/campaign_finance/Jingyang_CampaignFinance_IE_Notices_4Candidates_2026_raw.csv  ->  raw/campaign_finance/IE_Notices_4Candidates_2026_raw.csv
+MOVE  raw/campaign_finance/Jingyang_CampaignFinance_IE_Regular_4Candidates_2026_raw.csv  ->  raw/campaign_finance/IE_Regular_4Candidates_2026_raw.csv
+MOVE  clean/campaign_finance/Jingyang_CampaignFinance_cleaning_issues_v1.csv  ->  clean/campaign_finance/cleaning_issues_v1.csv
+MOVE  clean/campaign_finance/Jingyang_CampaignFinance_cleaning_issues_v1.xlsx  ->  clean/campaign_finance/cleaning_issues_v1.xlsx
+MOVE  clean/campaign_finance/Jingyang_CampaignFinance_cleaning_summary_v1.json  ->  clean/campaign_finance/cleaning_summary_v1.json
+MOVE  clean/campaign_finance/Jingyang_CampaignFinance_finance_detail_summary_v2.json  ->  clean/campaign_finance/finance_detail_summary_v2.json
+MOVE  clean/campaign_finance/Jingyang_CampaignFinance_finance_reports_clean_v2.csv  ->  clean/campaign_finance/finance_reports_clean_v2.csv
+MOVE  clean/campaign_finance/Jingyang_CampaignFinance_finance_snapshot_20260930_v2.csv  ->  clean/campaign_finance/finance_snapshot_20260930_v2.csv
+MOVE  clean_scripts/campaign_finance/Jingyang_CampaignFinance_clean_core.py  ->  clean_scripts/campaign_finance/clean_core.py
+MOVE  clean_scripts/campaign_finance/Jingyang_CampaignFinance_finance_detail_v2.py  ->  clean_scripts/campaign_finance/finance_detail_v2.py
+MOVE  notebooks/campaign_finance/Jingyang_CampaignFinance_descriptive_v2.ipynb  ->  notebooks/campaign_finance/descriptive_v2.ipynb
+MOVE  output/campaign_finance/Jingyang_CampaignFinance_cash_trend_2026_v1.png  ->  output/campaign_finance/cash_trend_2026_v1.png
+MOVE  output/campaign_finance/Jingyang_CampaignFinance_classification_v3.csv  ->  output/campaign_finance/classification_v3.csv
+MOVE  output/campaign_finance/Jingyang_CampaignFinance_funding_summary_v2.csv  ->  output/campaign_finance/funding_summary_v2.csv
+MOVE  output/campaign_finance/Jingyang_CampaignFinance_quarterly_principal_2026_v1.csv  ->  output/campaign_finance/quarterly_principal_2026_v1.csv
+MOVE  output/campaign_finance/Jingyang_CampaignFinance_quarterly_receipts_and_costs_v1.png  ->  output/campaign_finance/quarterly_receipts_and_costs_v1.png
+MOVE  output/campaign_finance/Jingyang_CampaignFinance_readable_tables_v1.xlsx  ->  output/campaign_finance/readable_tables_v1.xlsx
+MOVE  output/campaign_finance/Jingyang_CampaignFinance_receipt_sources_v2.csv  ->  output/campaign_finance/receipt_sources_v2.csv
+COPY  ~/Downloads/ohio_senate_polls2025.csv  ->  raw/polls/ohio_senate_polls2025.csv
+RMDIR raw/Rishab_READMEs (empty)

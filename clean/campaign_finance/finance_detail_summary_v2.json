@@ -1,0 +1,89 @@
+{
+  "version": "financial_detail_v2",
+  "snapshot_date": "2026-09-30",
+  "sources_as_of": "2026-10-18",
+  "base_code_sha256": "B9C2612751D06FD6060309C9E3C611362F6DD5CBEEACE656AE3CDCF52F382D68",
+  "raw_and_v1_unchanged": true,
+  "outputs": [
+    {
+      "filename": "finance_reports_clean_v2.csv",
+      "rows": 29,
+      "columns": 57,
+      "sha256": "AA493856A52F6ED5324D1F17FDC01558100B23FECCAC0F3AA2BC6336C8499702"
+    },
+    {
+      "filename": "finance_snapshot_20260930_v2.csv",
+      "rows": 5,
+      "columns": 57,
+      "sha256": "10666904D8C0E2AB474A2143BAD74B177ADD470C32C6B0D29A6B3D0A59D8E298"
+    }
+  ],
+  "exact_decimal_checks": {
+    "net_contributions": 29,
+    "net_operating_expenditures": 29,
+    "F3_receipts_breakdown": 26,
+    "F3_disbursements_breakdown": 26
+  },
+  "definitions": {
+    "net_contributions_period": "Period contributions less period contribution refunds; loans excluded; candidate contributions remain included.",
+    "net_operating_expenditures_period": "F3 operating expenditures or F3X federal operating expenditures less period operating offsets.",
+    "cash_on_hand_end_period": "Actual closing cash, unchanged; do not subtract period loans.",
+    "missing_fields": "Unavailable form-specific fields stay blank, not zero."
+  },
+  "preserved_issues": [
+    {
+      "source_file": "F3Reports_5Committees_2026_raw.csv",
+      "source_row": "4",
+      "record_id": "1964008",
+      "issue_code": "superseded_report",
+      "detail": "Replacement file 1987429",
+      "disposition": "excluded_from_clean"
+    },
+    {
+      "source_file": "F3Reports_5Committees_2026_raw.csv",
+      "source_row": "12",
+      "record_id": "1901020",
+      "issue_code": "superseded_report",
+      "detail": "Replacement file 1907306",
+      "disposition": "excluded_from_clean"
+    },
+    {
+      "source_file": "F3Reports_5Committees_2026_raw.csv",
+      "source_row": "14",
+      "record_id": "1936120",
+      "issue_code": "superseded_report",
+      "detail": "Replacement file 1951617",
+      "disposition": "excluded_from_clean"
+    },
+    {
+      "source_file": "F3Reports_5Committees_2026_raw.csv",
+      "source_row": "19",
+      "record_id": "1970913",
+      "issue_code": "superseded_report",
+      "detail": "Replacement file 1987446",
+      "disposition": "excluded_from_clean"
+    },
+    {
+      "source_file": "F3Reports_5Committees_2026_raw.csv",
+      "source_row": "13",
+      "record_id": "2028005",
+      "issue_code": "cash_continuity_gap",
+      "detail": "Previous file 1995817; gap USD 373.43",
+      "disposition": "retained_with_flag"
+    },
+    {
+      "source_file": "F3Reports_5Committees_2026_raw.csv",
+      "source_row": "7",
+      "record_id": "1951617",
+      "issue_code": "nonzero_initial_observed_cash",
+      "detail": "Observed report history starts with an existing cash balance; period sum is not complete campaign history",
+      "disposition": "retained_with_flag"
+    }
+  ],
+  "limitations": [
+    "Net metrics do not replace total receipts/disbursements in the cash identity.",
+    "Operating expenditures include staff, administration and fundraising, not just advertising.",
+    "Contribution refunds may relate to contributions received in an earlier period.",
+    "Exploratory IE raw sources are retained; IE derived tables are not part of current output."
+  ]
+}

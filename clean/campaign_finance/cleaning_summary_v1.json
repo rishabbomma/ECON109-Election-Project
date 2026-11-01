@@ -1,0 +1,57 @@
+{
+  "version": "v1",
+  "snapshot_date": "2026-09-30",
+  "sources_as_of": "2026-10-18",
+  "raw_hashes_unchanged": true,
+  "current_financial_reports": 29,
+  "snapshot_committees": 5,
+  "regular_2026_records": 191,
+  "notice_2026_records": 818,
+  "potential_cross_source_links": 93,
+  "issues": {
+    "superseded_report": 4,
+    "cash_continuity_gap": 1,
+    "nonzero_initial_observed_cash": 1,
+    "different_target_election": 2,
+    "source_dissemination_year_needs_review": 1
+  },
+  "outputs": [
+    {
+      "filename": "finance_reports_clean_v1.csv",
+      "rows": 29,
+      "sha256": "247ED9BC24FC1057362DFDB0E97438E066098565B174210D7DDC5825351420A3"
+    },
+    {
+      "filename": "finance_snapshot_20260930_v1.csv",
+      "rows": 5,
+      "sha256": "DEB682D2BD7C2ABE7D3F957AF766A2BA304C8F99814BB8A6E78F5E65BB01C985"
+    },
+    {
+      "filename": "IE_regular_clean_v1.csv",
+      "rows": 191,
+      "sha256": "E2B8C1A8DB4541EAC04FB0E0AC79167CD2A6FCDF84C3F38300022EC305DE162E"
+    },
+    {
+      "filename": "IE_notices_clean_v1.csv",
+      "rows": 818,
+      "sha256": "2C19CC19D06B9898F07112112067103A5FF9F596DAC65F2829E050F5759FD96E"
+    },
+    {
+      "filename": "IE_links_review_v1.csv",
+      "rows": 93,
+      "sha256": "F660381F61ADD3B88C1F92A4F1CE0480FA4E6CB63E46081EE41FDDCBCF52B8AB"
+    },
+    {
+      "filename": "cleaning_issues_v1.csv",
+      "rows": 9,
+      "sha256": "51CE0FFB9D68B12B262C005071F4DDB041CCE9673F2A1CBC960C861005E96205"
+    }
+  ],
+  "limitations": [
+    "IE datasets remain separate; potential links are not proven duplicates.",
+    "Memo entries and source date flags are retained. No combined unique IE total is produced.",
+    "Source cash continuity discrepancies are flagged without inventing corrections.",
+    "Form 3 source cumulative fields are election-cycle-to-date; Form 3X fields are calendar-year-to-date.",
+    "Committee snapshots are not automatically aggregated into candidate net funding."
+  ]
+}

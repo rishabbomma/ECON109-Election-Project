@@ -1,0 +1,8 @@
+# raw/ is a symlink to Google Drive (My Drive/ECON109DATA), ~708 MB.
+# The data is too large for GitHub and the symlink target is a path that
+# only exists on one machine, so neither is committed. See README.md.
+/raw
+
+.DS_Store
+__pycache__/
+*.pyc

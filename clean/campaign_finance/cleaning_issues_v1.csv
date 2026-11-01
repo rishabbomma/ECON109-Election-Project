@@ -1,0 +1,10 @@
+﻿source_file,source_row,record_id,issue_code,detail,disposition
+F3Reports_5Committees_2026_raw.csv,4,1964008,superseded_report,Replacement file 1987429,excluded_from_clean
+F3Reports_5Committees_2026_raw.csv,12,1901020,superseded_report,Replacement file 1907306,excluded_from_clean
+F3Reports_5Committees_2026_raw.csv,14,1936120,superseded_report,Replacement file 1951617,excluded_from_clean
+F3Reports_5Committees_2026_raw.csv,19,1970913,superseded_report,Replacement file 1987446,excluded_from_clean
+F3Reports_5Committees_2026_raw.csv,13,2028005,cash_continuity_gap,Previous file 1995817; gap USD 373.43,retained_with_flag
+F3Reports_5Committees_2026_raw.csv,7,1951617,nonzero_initial_observed_cash,Observed report history starts with an existing cash balance; period sum is not complete campaign history,retained_with_flag
+IE_Regular_4Candidates_2026_raw.csv,114,4072920251212446028,different_target_election,G2024,excluded_from_2026_clean
+IE_Regular_4Candidates_2026_raw.csv,194,4073120251213006006,different_target_election,G2024,excluded_from_2026_clean
+IE_Notices_4Candidates_2026_raw.csv,32,4101720261613726355,source_dissemination_year_needs_review,2016-10-15; retained without correction,retained_with_flag
