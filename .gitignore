@@ -6,3 +6,6 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+/REORG_LOG_2026-11-01.txt
+/slides/
