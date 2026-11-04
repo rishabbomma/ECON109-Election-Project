@@ -1,6 +1,0 @@
-candidate,party,committee_id,committee_name,cycle,size_lower_bound_usd,size_bucket,n_contributions,amount_usd
-Jon Husted,R,C00896019,HUSTED FOR SENATE,2026,0,$200 and under,,3402753.18
-Jon Husted,R,C00896019,HUSTED FOR SENATE,2026,200,$200.01-$499.99,741,194417.09
-Jon Husted,R,C00896019,HUSTED FOR SENATE,2026,500,$500-$999.99,1097,554511.51
-Jon Husted,R,C00896019,HUSTED FOR SENATE,2026,1000,"$1,000-$1,999.99",1597,1671297.9
-Jon Husted,R,C00896019,HUSTED FOR SENATE,2026,2000,"$2,000 and over",2554,7617200.41

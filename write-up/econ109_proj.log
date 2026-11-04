@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  1 NOV 2026 03:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  3 NOV 2026 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -223,32 +223,59 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count291
 \@lastruleclass=\count292
 \@thisrulewidth=\dimen182
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen183
+\ar@mcellbox=\box54
+\extrarowheight=\dimen184
+\NC@list=\toks33
+\extratabsurround=\skip61
+\backup@length=\skip62
+\ar@cellbox=\box55
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count293
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count294
+\float@exts=\toks34
+\float@box=\box56
+\@float@everytoks=\toks35
+\@floatcapt=\box57
 )
-\c@problem=\count293
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 82.
+\c@problem=\count295
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 93.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count294
-\l__pdf_internal_box=\box54
+\l__color_backend_stack_int=\count296
+\l__pdf_internal_box=\box58
 ) (./econ109_proj.aux)
 \openout1 = `econ109_proj.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -286,17 +313,17 @@ LaTeX Font Info:    ... okay on input line 82.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen183
-\scratchbox=\box55
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen184
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count297
+\scratchdimen=\dimen185
+\scratchbox=\box59
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen186
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -304,45 +331,121 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 83.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 94.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
 LaTeX Warning: No \author given.
 
+<../output/ohio_statewide_races.png, id=1, 686.565pt x 390.258pt>
+File: ../output/ohio_statewide_races.png Graphic file (type png)
+<use ../output/ohio_statewide_races.png>
+Package pdftex.def Info: ../output/ohio_statewide_races.png  used on input line 101.
+(pdftex.def)             Requested size: 264.51115pt x 150.34804pt.
 
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}] (./econ109_proj.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc} <../output/ohio_statewide_races.png>]
+
+[2]
+<../output/campaign_finance/cash_trend_2026_v1.png, id=28, 614.295pt x 462.528pt>
+File: ../output/campaign_finance/cash_trend_2026_v1.png Graphic file (type png)
+<use ../output/campaign_finance/cash_trend_2026_v1.png>
+Package pdftex.def Info: ../output/campaign_finance/cash_trend_2026_v1.png  used on input line 192.
+(pdftex.def)             Requested size: 216.01767pt x 162.64943pt.
+<../output/campaign_finance/quarterly_receipts_and_costs_v1.png, id=29, 722.7pt x 549.252pt>
+File: ../output/campaign_finance/quarterly_receipts_and_costs_v1.png Graphic file (type png)
+<use ../output/campaign_finance/quarterly_receipts_and_costs_v1.png>
+Package pdftex.def Info: ../output/campaign_finance/quarterly_receipts_and_costs_v1.png  used on input line 198.
+(pdftex.def)             Requested size: 216.01767pt x 164.17345pt.
+
+
+[3 <../output/campaign_finance/cash_trend_2026_v1.png> <../output/campaign_finance/quarterly_receipts_and_costs_v1.png>]
+<../output/polls/poll_margins_over_time.png, id=35, 462.528pt x 346.896pt>
+File: ../output/polls/poll_margins_over_time.png Graphic file (type png)
+<use ../output/polls/poll_margins_over_time.png>
+Package pdftex.def Info: ../output/polls/poll_margins_over_time.png  used on input line 223.
+(pdftex.def)             Requested size: 246.87349pt x 185.15613pt.
+ (../output/polls/poll_summary.tex)
+<../output/dem_incumbent/education_swing.png, id=36, 415.19115pt x 312.56775pt>
+File: ../output/dem_incumbent/education_swing.png Graphic file (type png)
+<use ../output/dem_incumbent/education_swing.png>
+Package pdftex.def Info: ../output/dem_incumbent/education_swing.png  used on input line 244.
+(pdftex.def)             Requested size: 211.60489pt x 159.3025pt.
+<../output/dem_incumbent/education_brown_runahead.png, id=37, 406.51875pt x 312.56775pt>
+File: ../output/dem_incumbent/education_brown_runahead.png Graphic file (type png)
+<use ../output/dem_incumbent/education_brown_runahead.png>
+Package pdftex.def Info: ../output/dem_incumbent/education_brown_runahead.png  used on input line 250.
+(pdftex.def)             Requested size: 211.60489pt x 162.69832pt.
+
+
+[4 <../output/polls/poll_margins_over_time.png>]
+<../output/dem_incumbent/brown_vs_obama_2012.png, id=43, 607.068pt x 404.712pt>
+File: ../output/dem_incumbent/brown_vs_obama_2012.png Graphic file (type png)
+<use ../output/dem_incumbent/brown_vs_obama_2012.png>
+Package pdftex.def Info: ../output/dem_incumbent/brown_vs_obama_2012.png  used on input line 260.
+(pdftex.def)             Requested size: 211.60489pt x 141.07083pt.
+<../output/dem_incumbent/brown_vs_harris_2024.png, id=44, 607.068pt x 404.712pt>
+File: ../output/dem_incumbent/brown_vs_harris_2024.png Graphic file (type png)
+<use ../output/dem_incumbent/brown_vs_harris_2024.png>
+Package pdftex.def Info: ../output/dem_incumbent/brown_vs_harris_2024.png  used on input line 261.
+(pdftex.def)             Requested size: 211.60489pt x 141.07083pt.
+<../output/dem_incumbent/brown_gap_by_county_size_2012_2024.png, id=45, 939.51pt x 375.804pt>
+File: ../output/dem_incumbent/brown_gap_by_county_size_2012_2024.png Graphic file (type png)
+<use ../output/dem_incumbent/brown_gap_by_county_size_2012_2024.png>
+Package pdftex.def Info: ../output/dem_incumbent/brown_gap_by_county_size_2012_2024.png  used on input line 268.
+(pdftex.def)             Requested size: 396.76001pt x 158.70248pt.
+
+
+[5 <../output/dem_incumbent/education_swing.png> <../output/dem_incumbent/education_brown_runahead.png> <../output/dem_incumbent/brown_vs_obama_2012.png> <../output/dem_incumbent/brown_vs_harris_2024.png>]
+<../output/dem_incumbent/runahead_2024_by_state.png, id=53, 621.522pt x 592.25266pt>
+File: ../output/dem_incumbent/runahead_2024_by_state.png Graphic file (type png)
+<use ../output/dem_incumbent/runahead_2024_by_state.png>
+Package pdftex.def Info: ../output/dem_incumbent/runahead_2024_by_state.png  used on input line 277.
+(pdftex.def)             Requested size: 264.51115pt x 252.061pt.
+
+
+[6 <../output/dem_incumbent/brown_gap_by_county_size_2012_2024.png> <../output/dem_incumbent/runahead_2024_by_state.png>]
+
+[7] (../output/forecast/coef_table.tex)
+<../output/forecast/forecast_waterfall.png, id=63, 722.7pt x 433.62pt>
+File: ../output/forecast/forecast_waterfall.png Graphic file (type png)
+<use ../output/forecast/forecast_waterfall.png>
+Package pdftex.def Info: ../output/forecast/forecast_waterfall.png  used on input line 320.
+(pdftex.def)             Requested size: 374.72302pt x 224.83528pt.
+
+
+[8 <../output/forecast/forecast_waterfall.png>] (./econ109_proj.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5432 strings out of 473190
- 86335 string characters out of 5715801
- 472874 words of memory out of 5000000
- 28608 multiletter control sequences out of 15000+600000
- 570246 words of font info for 71 fonts, out of 8000000 for 9000
+ 6511 strings out of 473190
+ 107775 string characters out of 5715801
+ 509663 words of memory out of 5000000
+ 29635 multiletter control sequences out of 15000+600000
+ 585725 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,345b,230s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on econ109_proj.pdf (1 page, 12473 bytes).
+ 57i,15n,65p,1178b,401s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on econ109_proj.pdf (8 pages, 1138423 bytes).
 PDF statistics:
- 14 PDF objects out of 1000 (max. 8388607)
- 8 compressed objects within 1 object stream
+ 140 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,0 @@
-candidate,party,committee_id,committee_name,cycle,size_lower_bound_usd,size_bucket,n_contributions,amount_usd
-Jon Husted,R,C00895276,C00895276 (second authorized committee),2026,0,$200 and under,,7403.07
-Jon Husted,R,C00895276,C00895276 (second authorized committee),2026,200,$200.01-$499.99,4,1000.0
-Jon Husted,R,C00895276,C00895276 (second authorized committee),2026,1000,"$1,000-$1,999.99",1,1000.0

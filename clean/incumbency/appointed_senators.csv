@@ -1,0 +1,19 @@
+year,state_po,special,party,name,won,in_senate_races
+2000,GA,True,D,Zell Miller,True,True
+2000,RI,False,R,Lincoln Chafee,True,True
+2002,MO,True,D,Jean Carnahan,False,True
+2004,AK,False,R,Lisa Murkowski,True,True
+2006,NJ,False,D,Bob Menendez,True,True
+2008,MS,True,R,Roger Wicker,True,False
+2008,WY,True,R,John Barrasso,True,True
+2010,CO,False,D,Michael Bennet,True,True
+2010,NY,True,D,Kirsten Gillibrand,True,True
+2012,NV,False,R,Dean Heller,True,True
+2014,HI,True,D,Brian Schatz,True,True
+2014,SC,True,R,Tim Scott,True,True
+2018,MN,True,D,Tina Smith,True,True
+2018,MS,True,R,Cindy Hyde-Smith,True,True
+2020,AZ,True,R,Martha McSally,False,True
+2020,GA,True,R,Kelly Loeffler,False,True
+2022,CA,False,D,Alex Padilla,True,True
+2024,NE,True,R,Pete Ricketts,True,True
