@@ -2,6 +2,8 @@
 
 The data is here: https://drive.google.com/drive/folders/1_GZnf7osDbPDLyrACl1ZqwZFw1_2YfGr?usp=sharing. We didn't commit it to the repo since there's a lot of random & large files in it.
 
+Group: Rishab Bomma, Basilio Reyes, Victor Lu, Jingyang Peng, Bryan Loera
+
 ## Layout
 
     raw/            source data (not committed)
